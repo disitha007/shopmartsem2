@@ -1,0 +1,33 @@
+.minbk {
+  background-image: url(../Photos/coverDairyProduct.jpg);
+  width: 100%;
+  background-size: cover;
+  height: 80vh;
+  background-position: center;
+}
+.h2d {
+  text-align: center;
+  padding: 25px 18%;
+}
+.topic_h2 {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 40px;
+}
+.parah3 {
+  font-size: 25px;
+}
+.card_sett {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 5%;
+  flex-wrap: wrap;
+  align-items: center;
+}
+@media screen and (max-width: 500px){
+  .h2d {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+  }
+}

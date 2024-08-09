@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.bdydt {
+  padding: 20px 5%;
+}
+.h1abt {
+  text-align: center;
+  font-size: 55px;
+  margin-bottom: 15px;
+}
+.prabt {
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+.outcard {
+  display: flex;
+  margin: 25px 0;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  border: 2px solid #039651;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  justify-content: space-between;
+}
+.flx1 {
+  flex: 1;
+}
+.flx2 {
+  padding: 25px;
+  flex: 1;
+}
+.fnt {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 40px;
+}
+.map {
+  width: 100%;
+  height: 400px;
+  border-radius: 8px 0 0 8px;
+}
+.prad {
+  margin-top: 15px;
+  font-size: 20px;
+}
+.imgcrdab {
+  width: 200px;
+  height: 200px;
+  margin-top: 25px;
+  border-radius: 8px;
+}
+.imgdt {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+table {
+  width: 900px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #039651;
+  padding: 8px;
+  text-align: center;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+th {
+  background-color: #039651;
+  color: white;
+  font-size: 25px;
+}
+@media screen and (max-width: 500px) {
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  table,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+    width: 100%;
+  }
+
+  th {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    margin: 0 0 1rem 0;
+  }
+
+  td {
+    border: none;
+    position: relative;
+    padding-left: 50%;
+    text-align: left;
+  }
+
+  td:before {
+    content: attr(data-label);
+    position: absolute;
+    left: 10px;
+    width: calc(50% - 10px);
+    white-space: nowrap;
+    text-align: left;
+    font-weight: bold;
+  }
+  .flx1 {
+    flex: auto;
+  }
+  .flx2 {
+    padding: 20px;
+    flex: auto;
+    text-align: center;
+  }
+  .imgcrdab {
+    text-align: center;
+    width: 100%;
+  }
+  .prabt {
+    font-size: 16px;
+    text-align: center;
+  }
+  .h1abt {
+    font-size: 30px;
+  }
+}
