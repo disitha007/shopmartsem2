@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const proceedToBuy = () => {
         localStorage.setItem(CART_KEY, JSON.stringify(cartItems));
-        window.location.href = 'order_details.html';
+        window.location.href = 'Order_details.html';
     };
 
     document.querySelectorAll('.add-to-cart').forEach(button => {
