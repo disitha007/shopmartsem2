@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHOPMART</title>
+    <link rel="stylesheet" href="../Home/home.css" />
+    <link rel="stylesheet" href="../Orders/orde.css" />
+    <link rel="stylesheet" href="./Home/home.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    
+  </head>
+  <body>
+    <section class="Nav-Bar">
+      <nav class="navbar">
+        <section class="navbr">
+          <section class="logo">
+            <img src="../Photos/logo.png" alt="logo" class="logo" />
+          </section>
+          <ul class="nav-links" id="navLinks">
+            <li>
+              <a href="../index.html"><p class="nav_itm_wrd">Home</p></a>
+            </li>
+            <li>
+              <a href="../AboutUs/AboutUs.html"
+                ><p class="nav_itm_wrd">About Us</p></a
+              >
+            </li>
+            <li>
+              <a href="../DairyProduct/DairyProduct.html"
+                ><p class="nav_itm_wrd">Dairy Product</p></a
+              >
+            </li>
+            <li>
+              <a href="../Vegetables/Vegetables.html"
+                ><p class="nav_itm_wrd">Vegetables</p></a
+              >
+            </li>
+            <li>
+              <a href="../Cosmetics/Cosmetics.html"
+                ><p class="nav_itm_wrd">Cosmetics and Skin care</p></a
+              >
+            </li>
+            <li>
+              <a href="../Orders/Orders.html"
+                ><p class="nav_itm_wrd">Orders</p></a
+              >
+            </li>
+            <li>
+              <a href="../Loyalty/Loyalty.html"
+                ><p class="nav_itm_wrd nvclor">Loyalty</p></a
+              >
+            </li>
+          </ul>
+          <section class="menu-icon" id="menuIcon">
+            <section class="bar"></section>
+            <section class="bar"></section>
+            <section class="bar"></section>
+          </section>
+        </section>
+      </nav>
+    </section>
+    <section>
+      <section class="fomman">
+        <form action="#" id="myForm" novalidate>
+          <p class="pppp">Fill Your Details</p>
+          <label for="fullName">Full Name</label><br />
+          <input type="text" id="fullName" name="fullName" required><br />
+          <label for="nic">NIC</label><br />
+          <input type="text" id="nic" name="nic" required pattern="[0-9]{9,12}"><br />
+          <label for="phoneNumber">Phone Number</label><br />
+          <input type="tel" id="phoneNumber" name="phoneNumber" required pattern="[0-9]{10,15}"><br />
+    
+          <label for="address">Address</label><br />
+          <input type="text" id="address" name="address" required><br />
+          <label for="age">Age</label><br />
+          <input type="number" id="age" name="age" required min="18" max="100"><br />
+          <label for="date">Date</label><br />
+          <input type="date" id="date" name="date" required><br />
+          <button>Apply Now</button>
+        </form>
+      </section>
+    </section>
+    
+    <style>
+      #myForm input:invalid {
+        border: 1px solid red;
+      }
+    </style>
+
+    <section>
+      <section>
+        <footer class="footer">
+          <div class="container">
+            <div class="footer-content">
+              <h3>SHOPMART</h3>
+              <p>
+                Your one-stop shop for quality products at unbeatable prices.
+              </p>
+            </div>
+          </div>
+        </footer>
+      </section>
+    </section>
+    <script src="../Home/Home.js"></script>
+  </body>
+</html>
