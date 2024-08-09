@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHOPMART</title>
+    <link rel="stylesheet" href="../Home/home.css" />
+    <link rel="stylesheet" href="./orde.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <section class="Nav-Bar">
+      <nav class="navbar">
+        <div class="navbr">
+          <div class="logo">
+            <img src="../Photos/logo.png" alt="SHOPMART Logo" class="logo" />
+          </div>
+          <ul class="nav-links" id="navLinks">
+            <li><a href="../index.html"><p class="nav_itm_wrd">Home</p></a></li>
+            <li><a href="../AboutUs/AboutUs.html"><p class="nav_itm_wrd">About Us</p></a></li>
+            <li><a href="../DairyProduct/DairyProduct.html"><p class="nav_itm_wrd">Dairy Product</p></a></li>
+            <li><a href="../Vegetables/Vegetables.html"><p class="nav_itm_wrd">Vegetables</p></a></li>
+            <li><a href="../Cosmetics/Cosmetics.html"><p class="nav_itm_wrd">Cosmetics and Skin care</p></a></li>
+            <li><a href="../Orders/Orders.html"><p class="nav_itm_wrd nvclor">Orders</p></a></li>
+            <li><a href="../Loyalty/Loyalty.html"><p class="nav_itm_wrd">Loyalty</p></a></li>
+          </ul>
+          <div class="menu-icon" id="menuIcon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        </div>
+      </nav>
+    </section>
+        <!-- Fruits Section -->
+        <section class="subvegi">
+          <h3 class="sen_topic"><span class="cl">-</span> Order Your Fruits <span class="cl">-</span></h3>
+          <div class="card_set">
+            <div class="card_home">
+              <img src="./Fruits_images/Apple.avif" alt="Apple" class="img_card" />
+              <h3 class="topic_cardd">Apple</h3>
+              <p class="price">$2.00 per kg</p>
+              <label for="apple">Quantity (kg):</label>
+              <input type="number" id="apple" placeholder="Enter kg" min="0" />
+              <button class="add-to-cart" data-product="Apple" data-price="2.00" data-unit="kg">Add to Cart</button>
+            </div>
+            <div class="card_home">
+              <img src="./Fruits_images/Banana.jpg" alt="Banana" class="img_card" />
+              <h3 class="topic_cardd">Banana</h3>
+              <p class="price">$1.25 per kg</p>
+              <label for="banana">Quantity (kg):</label>
+              <input type="number" id="banana" placeholder="Enter kg" min="0" />
+              <button class="add-to-cart" data-product="Banana" data-price="1.25" data-unit="kg">Add to Cart</button>
+            </div>
+            <div class="card_home">
+              <img src="./Fruits_images/Grapes.jpg" alt="Grapes" class="img_card" />
+              <h3 class="topic_cardd">Grapes</h3>
+              <p class="price">$1.19 per kg</p>
+              <label for="grapes">Quantity (kg):</label>
+              <input type="number" id="grapes" placeholder="Enter kg" min="0" />
+              <button class="add-to-cart" data-product="Grapes" data-price="1.19" data-unit="kg">Add to Cart</button>
+            </div>
+            <div class="card_home">
+              <img src="./Fruits_images/Mango.jpg" alt="Mango" class="img_card" />
+              <h3 class="topic_cardd">Mango</h3>
+              <p class="price">$2.25 per kg</p>
+              <label for="mango">Quantity (kg):</label>
+              <input type="number" id="mango" placeholder="Enter kg" min="0" />
+              <button class="add-to-cart" data-product="Mango" data-price="2.25" data-unit="kg">Add to Cart</button>
+            </div>
+            <div class="card_home">
+              <img src="./Fruits_images/Orange.webp" alt="Orange" class="img_card" />
+              <h3 class="topic_cardd">Orange</h3>
+              <p class="price">$3.50 per kg</p>
+              <label for="orange">Quantity (kg):</label>
+              <input type="number" id="orange" placeholder="Enter kg" min="0" />
+              <button class="add-to-cart" data-product="Orange" data-price="3.50" data-unit="kg">Add to Cart</button>
+            </div>
+            <div class="card_home">
+              <img src="./Fruits_images/Strawberry.jpg" alt="Strawberry" class="img_card" />
+              <h3 class="topic_cardd">Strawberry</h3>
+              <p class="price">$1.75 per kg</p>
+              <label for="strawberry">Quantity (kg):</label>
+              <input type="number" id="strawberry" placeholder="Enter kg" min="0" />
+              <button class="add-to-cart" data-product="Strawberry" data-price="1.75" data-unit="kg">Add to Cart</button>
+            </div>
+          </div>
+        </section>
+
+
+    <!-- Vegetables Section -->
+    <section class="subvegi">
+      <h3 class="sen_topic"><span class="cl">-</span> Order Your Vegetables <span class="cl">-</span></h3>
+      <div class="card_set">
+        <div class="card_home">
+          <img src="./Vegetables_images/Broccoli.jpeg" alt="Broccoli" class="img_card" />
+          <h3 class="topic_cardd">Broccoli</h3>
+          <p class="price">$2.49 per kg</p>
+          <label for="broccoli">Quantity (kg):</label>
+          <input type="number" id="broccoli" placeholder="Enter kg" min="0" />
+          <button class="add-to-cart" data-product="Broccoli" data-price="2.49" data-unit="kg">Add to Cart</button>
+        </div>
+        <div class="card_home">
+          <img src="./Vegetables_images/Carrot.jpeg" alt="Carrot" class="img_card" />
+          <h3 class="topic_cardd">Carrot</h3>
+          <p class="price">$1.39 per kg</p>
+          <label for="carrot">Quantity (kg):</label>
+          <input type="number" id="carrot" placeholder="Enter kg" min="0" />
+          <button class="add-to-cart" data-product="Carrot" data-price="1.39" data-unit="kg">Add to Cart</button>
+        </div>
+        <div class="card_home">
+          <img src="./Vegetables_images/Onion.jpg" alt="Onion" class="img_card" />
+          <h3 class="topic_cardd">Onion</h3>
+          <p class="price">$1.19 per kg</p>
+          <label for="onion">Quantity (kg):</label>
+          <input type="number" id="onion" placeholder="Enter kg" min="0" />
+          <button class="add-to-cart" data-product="Onion" data-price="1.19" data-unit="kg">Add to Cart</button>
+        </div>
+        <div class="card_home">
+          <img src="./Vegetables_images/Potato.jpg" alt="Potato" class="img_card" />
+          <h3 class="topic_cardd">Potato</h3>
+          <p class="price">$2.49 per kg</p>
+          <label for="potato">Quantity (kg):</label>
+          <input type="number" id="potato" placeholder="Enter kg" min="0" />
+          <button class="add-to-cart" data-product="Potato" data-price="2.49" data-unit="kg">Add to Cart</button>
+        </div>
+        <div class="card_home">
+          <img src="./Vegetables_images/Spinach.avif" alt="Spinach" class="img_card" />
+          <h3 class="topic_cardd">Spinach</h3>
+          <p class="price">$1.50 per kg</p>
+          <label for="spinach">Quantity (kg):</label>
+          <input type="number" id="spinach" placeholder="Enter kg" min="0" />
+          <button class="add-to-cart" data-product="Spinach" data-price="1.50" data-unit="kg">Add to Cart</button>
+        </div>
+        <div class="card_home">
+          <img src="./Vegetables_images/Tomato.avif" alt="Tomato" class="img_card" />
+          <h3 class="topic_cardd">Tomato</h3>
+          <p class="price">$1.75 per kg</p>
+          <label for="tomato">Quantity (kg):</label>
+          <input type="number" id="tomato" placeholder="Enter kg" min="0" />
+          <button class="add-to-cart" data-product="Tomato" data-price="1.75" data-unit="kg">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+
+     <!-- Dairy Section -->
+     <section class="subvegi">
+      <h3 class="sen_topic"><span class="cl">-</span> Order Your Dairy <span class="cl">-</span></h3>
+      <div class="card_set">
+        <div class="card_home">
+          <img src="./Dairy_images/Butter.jpeg" alt="Butter" class="img_card" />
+          <h3 class="topic_cardd">Butter 500g</h3>
+          <p class="price">$3.00 per unit</p>
+          <label for="butter">Quantity:</label>
+          <input type="number" id="butter" placeholder="Enter quantity" min="0">
+          <button class="add-to-cart" data-product="Butter" data-price="3.00" data-unit="quantity">Add to Cart</button>
+        </div>
+        <div class="card_home">
+          <img src="./Dairy_images/Cheese.jpg" alt="Cheese" class="img_card" />
+          <h3 class="topic_cardd">Cheese 250g</h3>
+          <p class="price">$3.40 per unit</p>
+          <label for="cheese">Quantity:</label>
+          <input type="number" id="cheese" placeholder="Enter quantity" min="0">
+          <button class="add-to-cart" data-product="Cheese" data-price="3.40" data-unit="quantity">Add to Cart</button>
+        </div>
+        <div class="card_home">
+          <img src="./Dairy_images/Cream.webp" alt="Cream" class="img_card" />
+          <h3 class="topic_cardd">Cream 1L</h3>
+          <p class="price">$7.00 per unit</p>
+          <label for="cream">Quantity:</label>
+          <input type="number" id="cream" placeholder="Enter quantity" min="0">
+          <button class="add-to-cart" data-product="Cream" data-price="7.00" data-unit="quantity">Add to Cart</button>
+        </div>
+        <div class="card_home">
+          <img src="./Dairy_images/Great Value Whole Milk.webp" alt="Milk" class="img_card" />
+          <h3 class="topic_cardd">milk 1L</h3>
+          <p class="price">$1.60 per unit</p>
+          <label for="milk">Quantity:</label>
+          <input type="number" id="milk" placeholder="Enter quantity" min="0">
+          <button class="add-to-cart" data-product="Milk" data-price="1.60" data-unit="quantity">Add to Cart</button>
+        </div>
+        <div class="card_home">
+          <img src="./Dairy_images/IceCream.webp" alt="IceCream" class="img_card" />
+          <h3 class="topic_cardd">IceCream 2L</h3>
+          <p class="price">$6.50 per unit</p>
+          <label for="icecream">Quantity:</label>
+          <input type="number" id="icecream" placeholder="Enter quantity" min="0" />
+          <button class="add-to-cart" data-product="IceCream" data-price="6.50" data-unit="quantity">Add to Cart</button>
+        </div>
+        <div class="card_home">
+          <img src="./Dairy_images/Yogurt.jpg" alt="Yogurt" class="img_card" />
+          <h3 class="topic_cardd">Yogurt 500ML</h3>
+          <p class="price">$2.70 per kg</p>
+          <label for="yogurt">Quantity:</label>
+          <input type="number" id="yogurt" placeholder="Enter quantity" min="0" />
+          <button class="add-to-cart" data-product="Yogurt" data-price="2.70" data-unit="quantity">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+
+        <!-- Meat Section -->
+        <section class="subvegi">
+          <h3 class="sen_topic"><span class="cl">-</span> Order Your Meat and Seafood <span class="cl">-</span></h3>
+          <div class="card_set">
+            <div class="card_home">
+              <img src="./Meat_images/Beef.jpeg" alt="Beef" class="img_card" />
+              <h3 class="topic_cardd">Beef</h3>
+              <p class="price">$5.95 per kg</p>
+              <label for="beef">Quantity (kg):</label>
+              <input type="number" id="beef" placeholder="Enter kg" min="0" />
+              <button class="add-to-cart" data-product="Beef" data-price="5.95" data-unit="kg">Add to Cart</button>
+            </div>
+            <div class="card_home">
+              <img src="./Meat_images/Chicken.jpg" alt="Chicken" class="img_card" />
+              <h3 class="topic_cardd">Chicken</h3>
+              <p class="price">$4.40 per kg</p>
+              <label for="chicken">Quantity (kg):</label>
+              <input type="number" id="chicken" placeholder="Enter kg" min="0" />
+              <button class="add-to-cart" data-product="Chicken" data-price="4.40" data-unit="kg">Add to Cart</button>
+            </div>
+            <div class="card_home">
+              <img src="./Meat_images/Salmon.avif" alt="Salmon" class="img_card" />
+              <h3 class="topic_cardd">Salmon</h3>
+              <p class="price">$3.00 per kg</p>
+              <label for="salmon">Quantity (kg):</label>
+              <input type="number" id="salmon" placeholder="Enter kg" min="0" />
+              <button class="add-to-cart" data-product="Salmon" data-price="3.00" data-unit="kg">Add to Cart</button>
+            </div>
+            <div class="card_home">
+              <img src="./Meat_images/Tuna.jpeg" alt="Tuna" class="img_card" />
+              <h3 class="topic_cardd">Tuna</h3>
+              <p class="price">$4.49 per kg</p>
+              <label for="tuna">Quantity (kg):</label>
+              <input type="number" id="tuna" placeholder="Enter kg" min="0" />
+              <button class="add-to-cart" data-product="Tuna" data-price="4.49" data-unit="kg">Add to Cart</button>
+            </div>
+          </div>
+        </section>
+
+         <!-- Baking Section -->
+     <section class="subvegi">
+      <h3 class="sen_topic"><span class="cl">-</span> Order Your Baking and Cooking Ingredients <span class="cl">-</span></h3>
+      <div class="card_set">
+        <div class="card_home">
+          <img src="./Baking_images/Bob's Red Mill Whole Wheat Pastry Flour.jpg" alt="Pastry" class="img_card" />
+          <h3 class="topic_cardd">Pastry Flour 500g</h3>
+          <p class="price">$5.00 per unit</p>
+          <label for="pastry">Quantity:</label>
+          <input type="number" id="pastry" placeholder="Enter quantity" min="0">
+          <button class="add-to-cart" data-product="Pastry" data-price="5.00" data-unit="quantity">Add to Cart</button>
+        </div>
+        <div class="card_home">
+          <img src="./Baking_images/coco.jpeg" alt="Coco" class="img_card" />
+          <h3 class="topic_cardd">Coco powder 250g</h3>
+          <p class="price">$1.40 per unit</p>
+          <label for="coco">Quantity:</label>
+          <input type="number" id="coco" placeholder="Enter quantity" min="0">
+          <button class="add-to-cart" data-product="Coco" data-price="1.40" data-unit="quantity">Add to Cart</button>
+        </div>
+        <div class="card_home">
+          <img src="./Baking_images/powdered-sugar.jpg" alt="Powdered" class="img_card" />
+          <h3 class="topic_cardd">Powdered-Sugar 500g</h3>
+          <p class="price">$1.40 per kg</p>
+          <label for="powdered">Quantity (kg):</label>
+          <input type="number" id="powdered" placeholder="Enter kg" min="0" />
+          <button class="add-to-cart" data-product="Powdered" data-price="1.40" data-unit="kg">Add to Cart</button>
+        </div>
+        <div class="card_home">
+          <img src="./Baking_images/Motha Vanilla Flavour.jpeg" alt="Vanilla" class="img_card" />
+          <h3 class="topic_cardd">Vanilla 28ml</h3>
+          <p class="price">$0.40 per unit</p>
+          <label for="vanilla">Quantity:</label>
+          <input type="number" id="vanilla" placeholder="Enter quantity" min="0">
+          <button class="add-to-cart" data-product="Milk" data-price="0.40" data-unit="quantity">Add to Cart</button>
+        </div>
+        <div class="card_home">
+          <img src="./Baking_images/Motha Baking Powder.jpeg" alt="Baking" class="img_card" />
+          <h3 class="topic_cardd">Baking Powder 100ml</h3>
+          <p class="price">$0.50 per unit</p>
+          <label for="baking">Quantity:</label>
+          <input type="number" id="baking" placeholder="Enter quantity" min="0" />
+          <button class="add-to-cart" data-product="Baking" data-price="0.50" data-unit="quantity">Add to Cart</button>
+        </div>
+        <div class="card_home">
+          <img src="./Baking_images/TATA Salt.webp" alt="Salt" class="img_card" />
+          <h3 class="topic_cardd">Salt 500g</h3>
+          <p class="price">$1.00 per kg</p>
+          <label for="salt">Quantity:</label>
+          <input type="number" id="salt" placeholder="Enter quantity" min="0" />
+          <button class="add-to-cart" data-product="Salt" data-price="1.00" data-unit="quantity">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+
+        
+
+
+
+
+
+
+
+
+    <!-- Shopping Cart Section -->
+    <section class="cart-section">
+      <h2>Shopping Cart</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody id="cartItems">
+          <!-- Cart items will be added here dynamically -->
+        </tbody>
+      </table>
+      <p id="totalPrice">Total: $0.00</p>
+      <div class="actions">
+        <button id="buyNowButton">Buy Now</button>
+        <button id="saveToFavoritesButton">Add to Favourites</button>
+        <button id="applyFavoritesButton">Apply Favourites</button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <h3>SHOPMART</h3>
+          <p>Your one-stop shop for quality products at unbeatable prices.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../Home/Home.js"></script>
+    <script src="./java.js"></script>
+  </body>
+</html>
